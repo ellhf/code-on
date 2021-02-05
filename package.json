@@ -1,0 +1,34 @@
+{
+  "name": "code-on",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview",
+    "deploy": "tsc && vite build && rm -rf /usr/local/var/www && mv dist/ /usr/local/var/www"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "crypto-js": "^4.0.0",
+    "js-base64": "^3.6.0",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.2.1",
+    "@types/crypto-js": "^4.0.1",
+    "@types/netlify-identity-widget": "^1.9.1",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@types/react-router-dom": "^5.1.7",
+    "@vitejs/plugin-react-refresh": "^1.1.0",
+    "autoprefixer": "^10.2.4",
+    "postcss": "^8.2.4",
+    "tailwindcss": "^2.0.2",
+    "typescript": "^4.1.2",
+    "vite": "^2.0.0-beta.50"
+  },
+  "main": "index.js",
+  "license": "MIT"
+}

@@ -1,0 +1,87 @@
+.text-bittersweet {
+  color: #f06756;
+}
+
+.hover\:text-bittersweet:hover {
+  color: #f06756;
+}
+
+.text-ivory {
+  color: #fffff3;
+}
+.bg-ivory {
+  background-color: #fffff3;
+}
+
+.text-turquoise {
+  color: #00D9C0;
+}
+
+.bg-blackolive {
+  background-color: #423E37;
+}
+
+.bg-code {
+  background-image: url("/assets/code.jpg");
+}
+
+.h500px {
+  height: 500px;
+}
+
+.navlink.active {
+  @apply bg-white bg-opacity-80 text-black;
+}
+
+.slipin {
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  top: 2rem;
+  line-height: 1.1;
+  animation: .8s swift-up ease-in-out forwards;
+}
+
+.slipin:nth-of-type(1) i {
+  animation-delay: 0s;
+}
+.slipin:nth-of-type(2) i {
+  animation-delay: 0.1s;
+}
+.slipin:nth-of-type(3) i {
+  animation-delay: 0.2s;
+}
+.slipin:nth-of-type(4) i {
+  animation-delay: 0.3s;
+}
+.slipin:nth-of-type(5) i {
+  animation-delay: 0.4s;
+}
+.slipin:nth-of-type(6) i {
+  animation-delay: 0.5s;
+}
+.slipin:nth-of-type(7) i {
+  animation-delay: 0.6s;
+}
+.slipin:nth-of-type(8) i {
+  animation-delay: 0.7s;
+}
+.slipin:nth-of-type(9) i {
+  animation-delay: 0.8s;
+}
+.slipin:nth-of-type(10) i {
+  animation-delay: 0.9s;
+}
+
+.slipin i {
+  position: relative;
+  letter-spacing: 5px;
+  top: 4rem;
+  animation: .5s swift-up ease-in-out forwards;
+}
+
+@keyframes swift-up {
+  to {
+    top: 0
+  }
+}

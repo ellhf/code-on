@@ -1,0 +1,13 @@
+.dropdown {
+  transition: .1s all ease-in-out;
+}
+
+.dropdown--show {
+  opacity: 100;
+  scale: 100;
+}
+
+.dropdown--hidden {
+  opacity: 0;
+  scale: 95;
+}
